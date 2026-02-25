@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+
+    <style>
+        table, th, td{
+            border: 2px solid blue;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 10px;
+            text-align: center;
+        }
+        #assembly{
+            background-color: lightblue;
+        }
+         #guidance{
+            background-color: lightgreen;
+        }
+            #debate{
+                background-color: lightcoral;
+            }
+            #cocurricular{
+                background-color: lightgoldenrodyellow;
+            }
+            header{
+                text-align: center;
+                font-size: 25px;
+                font-weight: bold;
+                color: darkblue;
+            }
+
+            header {
+                background-image: url("umu.webp");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                background-position-x: center;
+}
+
+            #preps{
+                background-color: lightcyan;
+            }
+            #breeze{
+                background-color: lightsteelblue;
+            }
+            #break{
+                background-color: lightpink;
+            }
+            #lunch{
+                background-color: lightyellow;
+            }
+
+            #header:hover{
+                color: darkred;
+                border-bottom: 2px solid darkred;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 60px;
+                text-shadow: 2px 2px 4px #000000;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h3 id="header">ST MARK SS O'LEVEL TIMETABLE 2026</h3>
+    </header>
+    <div>
+        <table>
+            <th></th>
+            <th>Time</th>
+            <th>4:00-6:00</th>
+            <th>6:00-7:00</th>
+            <th>7:00-7:50</th>
+            <th>7:50-8:30</th>
+            <th>8:30-9:10</th>
+            <th>9:10-9:50</th>
+            <th>9:50-10:30:</th>
+            <th>10:30-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-1:00</th>
+            <th>1:00-2:00</th>
+            <th>2:00-2:50</th>
+            <th>2:50-3:30</th>
+            <th>3:30-4:10</th>
+            <th>4:10-5:00</th>
+            <tr>
+                <td>Day</td>
+                <td>Class</td>
+                <td colspan="15"></td>
+            </tr>
+            <!-- Monday Schedule -->
+            <tr>
+                <td rowspan="4">Mon</td>
+                <td>S.1</td>
+                <td rowspan="24" id="preps" style="transform: rotate(3600deg); writing-mode: vertical-rl; text-align: center; font-size: 32px;">MORNING PREPS</td>
+                <td rowspan="24" id="breeze" style="transform: rotate(3600deg); writing-mode: vertical-rl; text-align: center; font-size: 32px;">MORNING BREEZE</td>
+                <td rowspan="4" id="assembly" style="transform: rotate(1800deg); writing-mode: horizontal-rl; text-align: center; font-size: 13px; font-weight: bold;">ASSEMBLY</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td rowspan="24" id="break" style="transform: rotate(3600deg); writing-mode: vertical-rl; text-align: center; font-size: 32px;">BREAK</td>
+                <td>AGRIC</td>
+                <td>GEO</td>
+                <td rowspan="24" id="lunch" style="transform: rotate(3600deg); writing-mode: vertical-rl; text-align: center; font-size: 32px;">LUNCH</td>
+                <td>BIO</td>
+                <td>BIO</td>
+                <td>ICT</td>
+                <td>ICT</td>
+                
+            </tr>
+            <tr>
+                <td>S.2</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>GEO</td>
+                <td>GEO</td>
+                <td>LUG</td>
+                <td>CHEM</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                </tr>
+            <tr>
+                <td>S.3</td>
+                <td>HIS</td>
+                <td>HIS</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>ENT</td>
+                <td>FRE</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                </tr>
+            <tr>
+                <td>S.4</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>F$N</td>
+                <td>F$N</td>
+                <td>BIO</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>ICT</td>
+            </tr>
+
+            <!-- Tuesday Schedule -->
+            <tr>
+                <td rowspan="4">Tue</td>
+                <td>S.1</td>
+                <td>GEO</td>
+                <td>GEO</td>
+                <td>FRE</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td rowspan="4" colspan="2" id="guidance" style="transform: rotate(1800deg); writing-mode: horizontal-tb; text-align: center; font-size: 16px; font-weight: bold;">GUIDANCE AND COUNSELLING</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                <td>ENT</td>
+                <td>ENT</td>
+            </tr>
+
+            <tr>
+                <td>S.2</td>
+                <td>BIO</td>
+                <td>BIO</td>
+                <td>ENT</td>
+                <td>ENT</td>
+                <td>ICT</td>
+                <td>HIS</td>
+                <td>HIS</td>
+                <td>F$N</td>
+                <td>F$N</td>
+            </tr>
+
+            <tr>
+                <td>S.3</td>
+                <td>F$N</td>
+                <td>F$N</td>
+                <td>GEO</td>
+                <td>GEO</td>
+                <td>ENT</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>BIO</td>
+                <td>BIO</td>
+                </tr>
+
+            <tr>
+                <td>S.4</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>HIS</td>
+                <td>HIS</td>
+                <td>ENG</td>
+                <td>ICT</td>
+                <td>ICT</td>
+                <td>MTC</td>
+                <td>MTC</td>
+            </tr>
+            
+            <!-- Wednesday Schedule -->
+            <tr>
+                <td rowspan="4">Wed</td>
+                <td>S.1</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>AGRIC</td>
+                <td>AGRIC</td>
+                <td>FRE</td>
+                <td>GEO</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>ICT</td>
+            </tr>
+
+            <tr>
+                <td>S.2</td>
+                <td>ICT</td>
+                <td>ICT</td>
+                <td>LUG</td>
+                <td>LUG</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>AGRIC</td>
+                <td>AGRIC</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                <td>PHY</td>
+            </tr>
+
+            <tr>
+                <td>S.3</td>
+                <td>GEO</td>
+                <td>GEO</td>
+                <td>ICT</td>
+                <td>ICT</td>
+                <td>LUG</td>
+                <td>LUG</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>BIO</td>
+            </tr>
+
+            <tr>
+                <td>S.4</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>BIO</td>
+                <td>BIO</td>
+                <td>F$N</td>
+                <td>F$N</td>
+                <td>HIS</td>
+                <td>HIS</td>
+                <td>GEO</td>
+                <td>GEO</td>
+                <td>PHY</td>
+            </tr>
+
+            <!-- Thursday Schedule -->
+            <tr>
+                <td rowspan="4">Thur</td>
+                <td>S.1</td>
+                <td>FRE</td>
+                <td>FRE</td>
+                <td>ICT</td>
+                <td>ICT</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>PHY</td>
+            </tr>
+
+            <tr>
+                <td>S.2</td>
+                <td>FRE</td>
+                <td>FRE</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>AGRIC</td>
+                <td>AGRIC</td>
+                <td>BIO</td>
+                <td>BIO</td>
+                <td>GEO</td>
+            </tr>
+
+            <tr>
+                <td>S.3</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>BIO</td>
+                <td>BIO</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>F$N</td>
+                <td>F$N</td>
+                <td>HIS</td>
+            </tr>
+
+            <tr>
+                <td>S.4</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                <td>LUG</td>
+                <td>LUG</td>
+                <td>GEO</td>
+                <td>GEO</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>AGRIC</td>
+                <td>CHEM</td>
+                <td>BIO</td>
+            </tr>
+
+            <!-- Friday Schedule -->
+            <tr>
+                <td rowspan="4">Fri</td>
+                <td>S.1</td>
+                <td>HIS</td>
+                <td>HIS</td>
+                <td>BIO</td>
+                <td>BIO</td>
+                <td>LUG</td>
+                <td>LUG</td>
+                <td>ENT</td>
+                <td rowspan="4" colspan="4" id="debate" style="transform: rotate(1800deg); writing-mode: horizontal-tb; text-align: center; font-size: 25px;">DEBATE</td>
+            </tr>
+
+            <tr>
+                <td>S.2</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>HIS</td>
+            </tr>
+
+            <tr>
+                <td>S.3</td>
+                <td>ENT</td>
+                <td>ENT</td>
+                <td>LUG</td>
+                <td>LUG</td>
+                <td>HIS</td>
+                <td>HIS</td>
+                <td>ICT</td>
+            </tr>
+
+            <tr>
+                <td>S.4</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>ICT</td>
+                <td>ICT</td>
+                <td>ENT</td>
+                <td>ENT</td>
+                <td>HIS</td>
+            </tr>
+
+            <!-- Saturday Schedule -->
+            <tr>
+                <td rowspan="4">Sat</td>
+                <td>S.1</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                <td>MTC</td>
+                <td rowspan="4" colspan="4" id="cocurricular" style="transform: rotate(1800deg); writing-mode: horizontal-tb; text-align: center; font-size: 22px;">CO-CURRICULAR ACTIVITIES</td>
+            </tr>
+
+            <tr>
+                <td>S.2</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>BIO</td>
+                <td>BIO</td>
+                <td>GEO</td>
+                <td>GEO</td>
+                <td>ENT</td>
+            </tr>
+
+            <tr>
+                <td>S.3</td>
+                <td>CHEM</td>
+                <td>CHEM</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>PHY</td>
+                <td>PHY</td>
+                <td>GEO</td>
+            </tr>
+
+            <tr>
+                <td>S.4</td>
+                <td>BIO</td>
+                <td>BIO</td>
+                <td>ENG</td>
+                <td>ENG</td>
+                <td>MTC</td>
+                <td>MTC</td>
+                <td>ICT</td>
+            </tr>
+
+
+            <tr>
+                <td rowspan="4">Sun</td>
+                <td colspan="16" style="transform: rotate(3600deg); writing-mode: horizontal-tb; text-align: center; font-size: 25px;">MASS & PERSONAL ACTIVITIES</td>
+            </tr>
+        </table>
+
+        <!-- Background music -->
+        <audio id="bgMusic" onended="playNextSong()">
+            <source src="desire.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <script>
+        const songs = ['desire.mp3', 'desire2.mp3'];
+        let currentSongIndex = 0;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.getElementById('bgMusic');
+            audio.volume = 0.001;
+            loadAndPlay();
+        });
+
+        function loadAndPlay() {
+            const audio = document.getElementById('bgMusic');
+            audio.src = songs[currentSongIndex];
+            audio.play().catch(function(error) {
+            console.log('Autoplay failed:', error);
+            });
+        }
+
+        function playNextSong() {
+            currentSongIndex = (currentSongIndex + 1) % songs.length;
+            loadAndPlay();
+        }
+        </script>
+
+    </div>
+</body>
+</html>
